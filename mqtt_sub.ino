@@ -1,9 +1,10 @@
+//created By Dattatray Bhairi
+
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "elonmusk";//replace this with your wifi access point 
-//name
-const char* password = "elonelon"; //replace with your wifi password
+const char* ssid = "***************";    //replace this with your wifi access point
+const char* password = "*************"; //replace with your wifi password
 const char* broker = "192.168.43.65"; //IP address of broker
 const int port = 1883;
 const char* mqttUser = "";
